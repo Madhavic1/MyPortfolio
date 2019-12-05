@@ -1,0 +1,182 @@
+
+html{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+body{
+    margin:0;
+    padding:0;
+    min-height:100vh;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #ececec;
+    position:relative;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+
+header{
+    margin:0;
+    background:white;
+    border-bottom:2px solid #cccccc;
+  
+    height:78px;
+}
+
+header::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+h1{
+    padding:0 20px;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+}
+
+.name{
+    
+    color:white;
+    background:#4aaaa5;
+    position:absolute;
+    top:0;
+    left:180px;
+    margin-left:15%;
+}
+
+nav{
+    float:right;
+    margin-right:285px;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    
+}
+
+nav ul li{
+    display:inline-block;
+    margin-left:40px;
+    padding-top:30px;
+    color:#777777;
+    
+   
+}
+
+nav li a{
+    text-decoration:none;
+    color:#777777;
+    font-size:20px;
+      
+}
+
+
+hr{
+    width:95% ; border:1.5px solid #cccccc;
+}
+
+.wrapper{
+    border:1px solid #cccccc;
+    background:white;
+    width:960px;
+    min-height: 100%;
+    margin:auto;
+    margin-top:20px;
+    padding-bottom: 30px;
+    margin-bottom: -30px;
+}
+
+#contact-wrapper.wrapper{
+    height:550px;
+    margin-bottom:30px;
+}
+
+
+
+
+.contentheader{
+    color:#4aaaa5;
+    margin-top:40px;
+   
+}
+
+
+.content{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:20px;
+    margin:25px;
+}
+.profile{
+    height:150px;
+    width:200px;
+    float:left;
+    padding-right:20px;
+}
+
+.contact-form{
+      
+    margin-left:21px;
+    
+
+}
+
+.contact-form label{
+    display:block;
+    color:#777777;
+    margin-left:3px;
+    margin-bottom:5px;
+    font-size: 18px;
+ 
+}
+.contact-form input , textarea{
+    display:block;
+    width:95%;
+    padding:10px;
+    margin-left:3px;
+    margin-bottom:15px;
+    border:1px solid #dddddd; 
+
+}
+
+.contact-form textarea{
+    height:80%;
+}
+
+.contact-form #submitBtn{
+    width:auto;
+    background:#4aaaa5;
+    padding:10px 30px;
+    color:white;
+    font-size:medium;
+    margin-top:15px;
+    border:none;
+}
+
+
+
+footer{
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    padding-top:30px;
+    position: absolute;
+    bottom:0;
+    width:100%;
+    background:#666666;
+    font-size:x-small;
+    color: #a5bac3;
+    height:30px;
+}
+
+.images
+{
+    margin:21px;  
+}
+
+table tr td{
+    padding:20px;
+}
+
